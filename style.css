@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;700&display=swap');
+
+.font-pop{  
+    color: #3A3A3A;
+    font-family: "Poppins";
+    font-size: 52px;
+    font-weight: 700;
+}
+img{
+    height: 24px;
+    width: 24px;
+}
+.btn{
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    
+}
+
+/* nav bar */
+.nav{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px; */
+    padding: 0px 120px;
+}
+.nav-li{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.nav li{
+    width: 62px;
+    height: 34.8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav h3{
+    font-size: 24px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    
+}
+/* body  */
+.text-con .font-pop h3{
+    width: 582px;
+    height: 133px;
+    font-size: 52px;
+}
+.pp{
+    width: 505px;
+    height: 60.9px;
+    font-size: 16px;
+    font-weight: 600;  
+}
+.text-con .btn{
+    border: none;
+    border-radius: 30px;
+}
+.text-con .btn span{
+    color: #FFF;
+    font-size: 16px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body .camera img{
+    width: 100%;
+    height: 100%;
+    background-image:url(images/Circle\ design.svg);
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+        height: 100px;
+    }
+    .nav-li{
+       padding-left: 5px;
+       gap: 13px;
+    }
+    .nav h3{
+        margin: 20px 0px;
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        height: 50px;
+    }
+    .body{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 500px;
+    }
+    .body.text-con{
+        border:2px solid darkblue;
+
+    }
+    .body.text-con .font-pop h3{
+        width: 404px;
+        height: 78px;
+        font-size: 20px;
+
+    }
+    .body .camera img{
+        width: 360px;
+        height: 6077px;
+
+    }
+}
