@@ -82,6 +82,82 @@ img{
     position: relative;
     
 }
+.spons-li{
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 250px;
+}
+.spons-li li img{
+    height: 100%;
+    width: 100%;
+}
+/* another section */
+
+.price-list .font-pop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.photo-price img{
+    width: 300px;
+    height: 256px;
+    padding: 20px;
+    margin-left:50px ;
+
+
+}
+.photo-price {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px 150px;
+    padding: 0px;
+    margin-left: 200px;
+    
+
+
+}
+.photo-price div{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 476px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.photo-price div h3,h2,p{
+    font-family: "Poppins";
+    padding-left: 20px;
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-weight: 500;
+    margin-left:50px ;
+
+}
+.photo-price div p{
+    font-size: 14px;
+    width: 196px;
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+    margin-left:50px ;
+}
+
+
 
 
 
@@ -164,6 +240,49 @@ img{
     .body .camera img{
         width: 202px;
         height: 190px;
+    }
+    .spons-li{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+
+        align-items: center;
+        margin-top: 50px;
+        padding-left: 0px;
+
+    }
+    .spons-li li img{
+        width: 44px;
+        height: 17px;
+
+    }
+    .price-list .font-pop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 16px; 
+    }
+    .photo-price img{
+        width: 300px;
+        height: 256px;
+        margin:17px 14px ;
+    }
+    .photo-price {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        margin: 20px 20px;
+        margin-right: 55px;
+    }
+    .photo-price div h3,h2,p{
+        padding:0px;
+        margin: 5px;
+        margin-left: 32px;
+    }
+    .photo-price div p{
+        margin-left: 32px;
     }
 
         
